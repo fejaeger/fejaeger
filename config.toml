@@ -1,0 +1,4 @@
+baseURL = 'https://fejaeger.github.io/'
+languageCode = 'en-us'
+title = 'Felix Jäger'
+publishDir = 'docs'

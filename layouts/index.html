@@ -1,0 +1,62 @@
+{{ define "main" }}
+<div class="container my-5">
+  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+      <div class="lc-block mb-3">
+        <div editable="rich">
+          <h2 class="fw-bold display-4">Felix Jäger<p></p>
+            <p></p>
+          </h2>
+        </div>
+      </div>
+      <div class="lc-block mb-3">
+        <div editable="rich">
+          <p class="lead">Welcome! I am a Ph.D. candidate in political science at the <a class="mylink" href="https://www.uni-mannheim.de/gess/" target="_blank">Graduate School of Economic and Social Sciences</a> at the <a class="mylink" href="https://www.uni-mannheim.de/en/" target="_blank">University of Mannheim</a>. 
+          </p>
+        </div>
+      </div>
+      <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary px-4 me-md-2" href="https://scholar.google.de/citations?user=pzGEgT4AAAAJ&hl" role="button">          
+          {{ partial "fontawesome.html" "graduation-cap-solid" }}
+        </a>
+        <a class="btn btn-primary px-4 me-md-2" href="https://orcid.org/0000-0002-2787-2525" role="button">
+          {{ partial "fontawesome.html" "orcid" }}
+        </a>
+        <a class="btn btn-primary px-4 me-md-2" href="mailto:jaeger@uni-mannheim.de" role="button">
+          {{ partial "fontawesome.html" "envelope-solid" }}
+        </a>
+       <!-- <a class="btn btn-primary px-4 me-md-2" href="mailto:jaeger@uni-mannheim.de" role="button">
+          CV
+        </a> -->
+      <!--  <a class="btn btn-outline-secondary px-4" href="#" role="button">Click me, I'm a button</a> -->
+      </div>
+    </div>
+    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+    <div class="lc-block">
+      {{ $image := resources.Get "images/Avatar_square.jpg" }}
+      <img class="rounded-start" src="{{ $image.RelPermalink }}" alt="Photo of Felix Jäger" width="440">
+    </div>
+    </div>
+  </div>
+</div>
+<div class="container my-5">
+  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+    <div class="p-3 p-lg-5 pt-lg-3">
+      <div class="lc-block mb-3">
+        <div editable="rich">
+          <h3>Work in progress</h3>
+          <p>Can emotions explain how threat rhetoric shapes preferences for freedom versus security? (<a class="mylink" href="https://sandramorgenstern.com/" target="_blank">with Sandra Morgenstern</a>)</p>
+          <p></p>
+          <p>Do electoral candidates reflect or select campaign issues? The Influence of Electoral Manifestos on Online Communication (<a class="mylink" href="https://www.uni-bamberg.de/en/polsoz/team/valentin-berger/" target="_blank">with Valentin Berger</a>)</p>
+          <h3>Selected publications</h3>
+          <p>Jäger, F (2023) Security vs. civil liberties: How citizens cope with threat, restriction, and ideology. Frontiers in Political Science 4:1006711.
+          </p>
+          <p>Helbling, M., Jäger, F., & Traunmüller, R. (2022). Muslim bias or fear of fundamentalism? A survey experiment in five Western European democracies. Research & Politics 9(1).
+          </p>
+        </div>
+      </div>
+  </div>
+</div>
+{{ end }}
+
+

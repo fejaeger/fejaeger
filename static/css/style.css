@@ -1,0 +1,20 @@
+.inline-svg {
+  display: inline-block;
+  height: 1.55rem;
+  width: 1.55rem;
+  top: 0 rem;
+  position: relative;
+}
+
+.mylink {
+  color: black;
+  text-decoration: none;
+}
+
+.mylink:visited {
+  color: black;
+}
+
+.mylink:hover {
+  color: slategrey;
+}

@@ -1,4 +1,4 @@
-baseURL = 'https://fejaeger.github.io/'
+baseURL = 'https://fejaeger.github.io/fejaeger/'
 languageCode = 'en-us'
 title = 'Felix Jäger'
 publishDir = 'docs'

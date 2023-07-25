@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Felix Jäger</title>
-    <link>https://fejaeger.github.io/</link>
+    <link>https://fejaeger.github.io/fejaeger/</link>
     <description>Recent content on Felix Jäger</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://fejaeger.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://fejaeger.github.io/fejaeger/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

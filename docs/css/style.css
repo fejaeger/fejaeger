@@ -17,4 +17,42 @@
 
 .mylink:hover {
   color: slategrey;
+  text-decoration: underline;
+}
+
+.mylinkjournal {
+  color: #225cd3;
+  text-decoration: none;
+  font-style: italic;  
+}
+
+.mylinkjournal:visited {
+  color: #225cd3;
+}
+
+.mylinkjournal:hover {
+  color: #5a9ce0;
+  text-decoration: underline;
+}
+
+.mylinkfurtherinfo {
+  color: #225cd3;
+  text-decoration: none; 
+}  
+
+.mylinkfurtherinfo:visited {
+  color: #225cd3;
+}
+
+.mylinkfurtherinfo:hover {
+  color: #5a9ce0;
+  text-decoration: underline;
+}
+
+.mylinkfurtherinfo:after {
+  content: "]"
+}
+
+.mylinkfurtherinfo:before {
+  content: "["
 }

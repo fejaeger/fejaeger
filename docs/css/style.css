@@ -50,9 +50,9 @@
 }
 
 .mylinkfurtherinfo:after {
-  content: "]"
+  content: "]";
 }
 
 .mylinkfurtherinfo:before {
-  content: "["
+  content: "[";
 }

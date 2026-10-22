@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fejaeger.github.io/fejaeger/categories/</loc>
+    <loc>http://localhost:1313/fejaeger/categories/</loc>
   </url><url>
-    <loc>https://fejaeger.github.io/fejaeger/</loc>
+    <loc>http://localhost:1313/fejaeger/</loc>
   </url><url>
-    <loc>https://fejaeger.github.io/fejaeger/tags/</loc>
+    <loc>http://localhost:1313/fejaeger/tags/</loc>
   </url>
 </urlset>
